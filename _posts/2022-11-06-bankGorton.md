@@ -9,11 +9,11 @@ excerpt_separator: <!--more-->
 
 <!--more-->
 
-## Introduction
+## 1 Introduction
 
 > Doug Diamond: “Financial crises are everywhere and always due to problems of short-term debt (and to the reasons why short-term debt is needed).”
 
-### Definition of Financial Crisis
+### 1.1 Definition of Financial Crisis
 
 - Definition 1: Caprio & Klingbiel (1996)
 
@@ -40,7 +40,7 @@ Financial crises are
 
 These definitions reveal a paradox in economy: **there is need for short-term debt; but short-term debt is fragile.**
 
-### Characteristics of Crises
+### 1.2 Characteristics of Crises
 
 - **Crises are Systemic**.
 
@@ -61,19 +61,20 @@ Financial crises have occurred in all market economies throughout history; occur
 
 Since 1970 there have been 147 systemic events around the world. Of the 147 events, about 65% involved bank runs.
 
-![distribution of total interventions](https://files.mdnice.com/user/18492/874105f7-08fb-4845-abd0-269512c0bc3c.png)
+<!-- ![distribution of total interventions](https://files.mdnice.com/user/18492/874105f7-08fb-4845-abd0-269512c0bc3c.png) -->
+![distribution of total interventions](/assets/img/crises/intervention.png)
 
-### Costs of Crises
+### 1.3 Costs of Crises
 
 - Reinhart & Rogoff:
 
 > **Real per capita GDP** growth rates are significantly lower during the decade following these episodes compared to the decade prior to the crisis.
 
-![output after crisis](https://files.mdnice.com/user/18492/4167072a-5566-4c58-96be-5a4602e4370e.png)
+![output after crisis](/assets/img/crises/output.png)
 
 > **Unemployment rates** in the decade after these crises, are significantly higher than in the decade preceding the crisis.
 
-![unemployment during crisis](https://files.mdnice.com/user/18492/dfddf027-749a-4722-ba14-cc055c63ea57.png)
+![unemployment during crisis](/assets/img/crises/unemployment.png)
 
 - van Dijk (2013)
 
@@ -87,7 +88,7 @@ Funke et al. study the **political fallout** from financial crises in 20 advance
 
 After a crisis, voters attracted to political rhetoric of the extreme right. Far right parties increase their vote chare by 30%. Financial recessions predict far-right vote shares. Street protests, riots, and strikes dramatically increase.
 
-### It Has Been Hard to Understand Crises
+### 1.4 It Has Been Hard to Understand Crises
 
 Lucas:
 > “The Great Depression ... remains a formidable barrier to a completely unbending application of the view that business cycles are all alike.”
@@ -105,9 +106,9 @@ Boyd, De Nicolò, Loukoianova (2010):
 > Bank lending that is lower than 25th percentile of the entire distribution of real domestic lending predicts the crisis start dates in the four big crisis data sets! But a similar measure of a decline in demand deposits does not predict the start dates!
 > The probability of a financial crisis is unaffected by the presence or absence of deposit insurance.
 
-## Financial Intermediaries
+## 2 Financial Intermediaries
 
-### Definition of bank
+### 2.1 Definition of bank
 
 Doug Diamond:
 > “Financial crises are everywhere and always due to problems of short-term debt (and to the reasons why short-term debt is needed).”
@@ -115,7 +116,7 @@ Doug Diamond:
 Ricardo (1876, p. 409):
 > "In the use of money, everyone is a trader; those whose habits and pursuits are little suited to explore the mechanism of trade are obliged to make use of money, and are no way qualified to ascertain the solidity of different banks whose paper is in circulation; accordingly we find that men living on limited incomes, women, laborers, and mechanics of all descriptions, are often severe sufferers by the failure of country banks..."
 
-### Diamond and Dybvig JPE 1983 (Bank Runs, Deposit Insurance, and Liquidity)
+### 2.2 Diamond and Dybvig JPE 1983 (Bank Runs, Deposit Insurance, and Liquidity)
 
 Model Set-up
 
@@ -147,15 +148,10 @@ Bank Runs: There can be a problem if type is private information.
 - Suppose late consumers can choose an action “withdraw” or “not withdraw”: $a \in \{W, NW \} $ and the payoff is $V(a, a_{-1}) $ to a consumer who chooses $a$ when others choose $a_{-1}$.
 - The contract is vulnerable to a run if:
 
-$$V(W, W)>V(N,W) and V(N, N) > V(W, N)$$
+$$V(W, W)>V(N,W)~\text{and}~V(N, N) > V(W, N)$$
 
 Final Points
 
 - **Bank may not be optimal**. Don’t know prob of a run. Postlewaite and Vives JPE
-• In original paper run with sunspots there are
-no testable implications. Goldstein and
-Pauzner JF “fix” this with global games.
-• Panic is the very thing we are trying to
-explain—how confidence is lost. Here
-sunspots.
-
+• In original paper run with sunspots there are no testable implications.
+• Panic is the very thing we are trying to explain—how confidence is lost. Here sunspots.
